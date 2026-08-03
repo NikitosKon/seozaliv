@@ -1,25 +1,24 @@
 # AI SEO Operating System
 
-Personal AI-powered SEO operating system for research, opportunity discovery, content production, quality assurance, publishing, and analytics.
+Personal AI-native SEO operating environment for research, opportunity discovery, content production, quality assurance, publishing, and continuous optimization.
 
-## Repository status
+## Start here
 
-This repository is being normalized from the project blueprint into a clean implementation-ready structure.
+1. [`docs/00_START_HERE/PROJECT_MANIFEST.md`](docs/00_START_HERE/PROJECT_MANIFEST.md)
+2. [`docs/00_START_HERE/ROADMAP.md`](docs/00_START_HERE/ROADMAP.md)
+3. The canonical domain Bible relevant to your task
+4. [`docs/11_MACHINE/`](docs/11_MACHINE/) for compact Codex-readable context
 
-## Documentation map
+## Documentation layers
 
-- `docs/00_START_HERE/` — project overview, roadmap, glossary, manifest
-- `docs/01_PRODUCT/` — product vision, PRD, TRD, requirements
-- `docs/02_ARCHITECTURE/` — architecture, domains, services, events, deployment
-- `docs/03_DATABASE/` — database bible, ERD, DDL, migrations, indexes
-- `docs/04_API/` — API bible, OpenAPI, schemas, errors, webhooks
-- `docs/05_AI/` — AI platform, agents, memory, prompts, routing, evaluation
-- `docs/06_SEO/` — SEO intelligence, SERP, keywords, entities, linking
-- `docs/07_CONTENT/` — content factory, research, writing, fact-checking, publishing
-- `docs/08_QA/` — quality engine, rules, scoring, autofix, reporting
-- `docs/09_INFRASTRUCTURE/` — infrastructure, security, observability, runbooks
-- `docs/10_IMPLEMENTATION/` — implementation guide, tasks, ADRs, RFCs, checklists
-- `docs/11_MACHINE/` — machine-readable project brain
+- `docs/00_START_HERE` through `docs/11_MACHINE`: canonical source of truth.
+- `docs/12_SOURCE_VOLUMES`: consolidated historical materials from the earlier specification packs.
+
+The historical volumes are intentionally excluded from default AI context loading. Use them only for targeted provenance or to recover decisions that have not yet been migrated into a canonical document.
+
+## Product scope
+
+This repository targets a single trusted operator first. SaaS billing, agency white-label features, complex organization isolation, and enterprise SSO are not part of the initial implementation unless later requirements justify them.
 
 ## Core principles
 
@@ -28,3 +27,7 @@ This repository is being normalized from the project blueprint into a clean impl
 3. No page enters production without QA or an explicit override.
 4. Every AI execution records model, prompt version, cost, latency, and outcome.
 5. Documentation evolves together with the codebase.
+
+## Current phase
+
+Architecture and documentation foundation. The next phase is the first executable vertical slice: project configuration → AI runtime → SEO opportunity → content workflow → QA → publication.
