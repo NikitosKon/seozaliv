@@ -1,0 +1,9 @@
+{
+  "projects": ["project_configuration", "provider_settings"],
+  "seo": ["keywords", "serp", "intent", "entities", "competitors", "opportunities", "clusters", "internal_links"],
+  "content": ["research", "briefs", "outlines", "pages", "versions", "claims", "sources"],
+  "ai": ["planner", "agents", "context", "memory", "routing", "tools", "evaluation", "costs"],
+  "qa": ["rules", "profiles", "runs", "results", "autofix", "overrides"],
+  "publishing": ["targets", "jobs", "schedules", "reconciliation"],
+  "analytics": ["search_console", "rankings", "traffic", "ctr", "conversions", "refresh_signals"]
+}
