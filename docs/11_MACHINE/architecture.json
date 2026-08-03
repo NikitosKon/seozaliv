@@ -1,0 +1,27 @@
+{
+  "project": "AI SEO Operating System",
+  "edition": "personal",
+  "architecture_style": "modular_monolith_with_workers",
+  "components": [
+    "web_app",
+    "api_backend",
+    "workflow_engine",
+    "ai_runtime",
+    "seo_intelligence",
+    "content_factory",
+    "qa_engine",
+    "publishing_connectors",
+    "analytics"
+  ],
+  "datastores": {
+    "system_of_record": "postgresql",
+    "cache_and_coordination": "redis",
+    "object_storage": "s3_compatible",
+    "semantic_retrieval": "qdrant",
+    "analytics_future": "clickhouse"
+  },
+  "deployment": {
+    "initial": "docker_compose_single_host",
+    "future": "kubernetes_when_justified"
+  }
+}
