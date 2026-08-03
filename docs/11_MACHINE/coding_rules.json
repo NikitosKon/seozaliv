@@ -1,0 +1,21 @@
+{
+  "rules": [
+    "inspect_before_editing",
+    "prefer_small_patches",
+    "keep_domain_logic_framework_independent",
+    "version_prompts_and_contracts",
+    "validate_all_ai_structured_outputs",
+    "record_ai_model_tokens_cost_latency",
+    "never_commit_secrets",
+    "add_tests_for_behavior_changes",
+    "update_docs_with_code"
+  ],
+  "coverage_targets": {
+    "default": 80,
+    "critical_domain_logic": 90
+  },
+  "api": {
+    "style": "rest_openapi_3_1",
+    "base_path": "/api/v1"
+  }
+}
